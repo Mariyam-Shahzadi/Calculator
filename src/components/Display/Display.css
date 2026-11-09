@@ -1,0 +1,28 @@
+.calculator-display {
+    min-height: 120px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #0e1424;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    overflow: hidden;
+}
+
+.display-expression {
+    color: #929bb3;
+    font-size: 16px;
+    margin-bottom: 12px;
+    min-height: 18px;
+}
+
+.display-value {
+    color: white;
+    font-size: clamp(30px, 8vw, 42px);
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}

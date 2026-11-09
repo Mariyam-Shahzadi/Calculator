@@ -1,0 +1,39 @@
+.calculator-button {
+    min-height: 65px;
+    border: none;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.calculator-button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.15);
+}
+
+.calculator-button:active {
+    transform: scale(0.95);
+}
+
+.number {
+    background: #252d43;
+    color: white;
+}
+
+.operator {
+    background: #383078;
+    color: #c4b5fd;
+}
+
+.action {
+    background: #493047;
+    color: #f9a8d4;
+    font-size: 16px;
+}
+
+.equal {
+    background: #8b5cf6;
+    color: white;
+}
